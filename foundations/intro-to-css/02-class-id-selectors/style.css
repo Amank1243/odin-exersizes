@@ -1,0 +1,19 @@
+.cool-text {
+    background-color: lightcoral;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#Important {
+    color: blue;
+    font-size: 36px;
+}
+
+.cool-text.cooler {
+    font-size: 28px;
+}
+
+#Special {
+background-color: lightseagreen;
+font-size: 24px;
+font-weight: 900;
+}
