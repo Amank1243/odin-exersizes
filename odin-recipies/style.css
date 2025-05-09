@@ -1,0 +1,73 @@
+.title {
+    font-weight: bolder;
+margin: auto;
+background-color: yellow;
+color: #8b0000;
+font-size: xx-large;
+display: flexbox;
+width: 200px;
+margin-bottom: 50px;
+padding: 8px 24px;
+}
+
+.subheading {
+    color: green;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.text {
+    color: greenyellow;
+    font-size: large;
+    background-color: chocolate;
+}
+
+body {
+background-color: purple;
+}
+
+.list {
+    background-color: blueviolet;
+    margin: auto;
+    padding-left: 64px;
+    margin-top: 28px;
+    list-style-position: inside;
+    list-style-type:lower-roman;
+    font-size: large;
+    display: flexbox;
+    width: 150px;
+}
+.list2  {
+    color: greenyellow;
+    font-weight: bold;
+    margin-top: 28px;
+    list-style-position: inside;
+    list-style-type:lower-roman;
+    font-size: large;
+    width: 150px;
+}
+/* removed display: flexbox; above and below   */
+ .list3 {
+    padding-left: -100px;
+    list-style-position: outside;
+    color: greenyellow;
+    font-weight: bold;
+    width: 175px;
+    margin-top: 28px;
+    list-style-type:lower-roman;
+    font-size: large;
+}
+
+.list3 li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    background-color: transparent;
+}
+
+.image {
+margin-left: 500px;
+object-position: center;
+border: red;
+border-style: double;
+}
